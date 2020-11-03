@@ -1,0 +1,106 @@
+/*================================
+            Common CSS
+================================*/
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+
+
+/*================================
+            Header Section
+================================*/
+
+
+#header{
+	background:url(../images/backgrond_image_2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    position:relative;
+	
+}
+
+.image_01{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+
+/*================================
+       Header Top Section
+================================*/
+
+.header_top{
+	position:relative;
+}
+
+.header_top img {
+    width: 300px;
+    margin-top: 40px;
+}
+.title_01 {
+    position: absolute;
+    top: 88px;
+    left: 31px;
+}
+
+
+
+.title_01 a {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #fff;
+    border: 3px solid #fff;
+    background:#fa182e;
+    padding: 8px 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.title_02 {
+    position: absolute;
+    top: 154px;
+    left: 32px;
+}
+
+.title_02 a {
+    text-transform: uppercase;
+    font-size: 29px;
+    color: #fff;
+    border: 3px solid #fff;
+    background:#fa182e;
+    padding: 8px 31px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*================================
+        Header Bottom Section
+================================*/
+
+.header_middel{
+	margin-top: 80px;
+}
+
+.header_middel .middel_extra {
+    width: 325px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+
